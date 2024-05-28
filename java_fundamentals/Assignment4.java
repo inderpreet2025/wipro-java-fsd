@@ -13,5 +13,6 @@ public class Assignment4 {
         } else {
             System.out.println(number + " is zero.");
         }
+        sc.close();
     }
 }
