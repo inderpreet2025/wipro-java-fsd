@@ -1,5 +1,5 @@
 import java.util.*;
-class Assignment13 {
+public class Assignment13 {
     public static String combineStrings(String a, String b) {
         if (a.length() > b.length()) {
             return b + a + b;
