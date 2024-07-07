@@ -1,4 +1,3 @@
-package com.wipro.task;
 import java.util.Arrays;
 
 public class DailyTasks {
@@ -6,7 +5,7 @@ public class DailyTasks {
         return s1 + " " + s2;
     }
 
-    public int[] sortValues(int arr[]) {
+    public int[] sortValues(int[] arr) {
         Arrays.sort(arr);
         return arr;
     }

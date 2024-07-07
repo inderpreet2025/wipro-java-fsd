@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestStringConcat",
+            "request": "launch",
+            "mainClass": "TestStringConcat",
+            "projectName": "wipro-java-fsd_40db4460"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"

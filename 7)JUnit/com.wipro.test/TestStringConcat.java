@@ -1,12 +1,9 @@
-package com.wipro.test;
-
+import task.DailyTasks;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
-import com.wipro.task.DailyTasks;
 
 public class TestStringConcat {
-
+    
     @Test
     public void testDoStringConcat() {
         DailyTasks tasks = new DailyTasks();
@@ -14,3 +11,4 @@ public class TestStringConcat {
         assertEquals("Hello World", result);
     }
 }
+
